@@ -18,14 +18,14 @@
 
         <form action="">
             <div class="amount">
-                <label for="amount">Enter Amount</label>
-                <input type="text" id="numberInput">
+                <label for="amount" aria-label="Endter amount">Enter Amount</label>
+                <input type="text" id="numberInput" aria-labelledby="Enter-the-amount-value">
             </div>
             <div class="dropdown">
                 <div class="from">
-                    <label for="from-select" aria-label="Select the country to send from">From</label>
+                    <label for="from-select" aria-label="Select the country from">From</label>
                     <div class="select-container">
-                        <img src="https://flagsapi.com/US/flat/64.png" alt="US flag">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="To flag">
                         <Select id="from-select" name="from" aria-labelledby="from-select-label">
                   
                         </Select>
@@ -35,7 +35,7 @@
                 <i class="fa-solid fa-arrow-right-arrow-left" style="margin-top: 1rem;"></i>
             
                 <div class="to">
-                    <label for="to-select" aria-label="Select the country to send to">To</label>
+                    <label for="to-select" aria-label="Select the country to">To</label>
                     <div class="select-container">
                         <img src="https://flagsapi.com/IN/flat/64.png" alt="Indian flag">
                         <Select id="to-select" name="to" aria-labelledby="to-select-label">
