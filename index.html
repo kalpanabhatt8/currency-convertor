@@ -23,33 +23,26 @@
             </div>
             <div class="dropdown">
                 <div class="from">
-                    <label for="">From</label>
+                    <label for="from-select" aria-label="Select the country to send from">From</label>
                     <div class="select-container">
-                        <img src="https://flagsapi.com/US/flat/64.png" alt="">
-                        <Select name="from">
-                        
-                           
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="US flag">
+                        <Select id="from-select" name="from" aria-labelledby="from-select-label">
+                  
                         </Select>
-
                     </div>
                 </div>
-
-
-
+            
                 <i class="fa-solid fa-arrow-right-arrow-left" style="margin-top: 1rem;"></i>
-
-
-
+            
                 <div class="to">
-                    <label for="">To</label>
+                    <label for="to-select" aria-label="Select the country to send to">To</label>
                     <div class="select-container">
-                        <img src="https://flagsapi.com/IN/flat/64.png" alt="">
-                        <Select name="to">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="Indian flag">
+                        <Select id="to-select" name="to" aria-labelledby="to-select-label">
+                       
                         </Select>
-
                     </div>
                 </div>
-               
             </div>
             <div class="msg hide">
                 <p class="defaultValue"></p>
