@@ -19,7 +19,7 @@
         <form action="">
             <div class="amount">
                 <label for="amount">Enter Amount</label>
-                <input type="text">
+                <input type="text" id="numberInput">
             </div>
             <div class="dropdown">
                 <div class="from">
@@ -36,7 +36,7 @@
 
 
 
-                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right-arrow-left" style="margin-top: 1rem;"></i>
 
 
 
@@ -51,9 +51,10 @@
                 </div>
                
             </div>
-            <div class="msg">
-                <p></p>
-                <span></span>
+            <div class="msg hide">
+                <p class="defaultValue"></p>
+                <p class="defaultValue2"></p>
+                <p class="result"></p>
             </div>
             <button >Get Exchange Rate</button>
         </form>
