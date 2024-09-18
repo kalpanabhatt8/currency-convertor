@@ -105,3 +105,13 @@ form button{
 .hide{
     display: none;
 }
+
+input:focus{
+    border-color: #0075F2;
+    border-width: 2px;
+}
+
+/* select:{
+    border-color: #0075F2;
+    border-width: 2px;
+} */
